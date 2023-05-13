@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+
+}
+header{
+  font-family:  "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+header h1 strong{
+  font-size: 70px;
+  color: red;
+
+}
+header p{
+  margin-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+header p strong{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #494949;
+  overflow: auto;
+}
+
+.label label{
+  top: -5px;
+  margin-left: 55px;
+  font-size: 20px;
+  position: relative;
+  font-weight: 
+}
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: green;
+}
+.active {
+  background-color: #04AA6D;
+}
+.scrollbar{
+  width: 300px;
+  height: 650px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  background-color: white;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.scrollbar .column {
+  padding: 10px;
+  color: white;
+}
+
+/* Style the images inside the grid */
+.scrollbar .column img {
+  width: 95%;
+  opacity: 0.8; 
+  ursor: pointer; 
+}
+
+.scrollbar .column img:hover {
+  opacity: 1;
+}
+.scrollbar .row label{
+  margin-left: 15px;
+  font-size: 15px;
+  position: relative;
+  top: -12px;
+  color: black;
+  font-weight: bold;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+.container .imgtext {
+  position: absolute;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+  top: 10px;
+}
+
+/* Closable button inside the expanded image */
+
+.container .expandedImg{
+  padding-top: 20px;
+  top: -665px;
+  width: 65%;
+  left: 100px;
+  position: relative;
+  
+  
+}
+.container .imgtext{
+  top: -1350px;
+  width: 60%;
+  left: 350px;
+  position: relative;
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+
+}
